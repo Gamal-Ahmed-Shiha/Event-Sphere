@@ -1,0 +1,200 @@
+
+:root{
+   --ftcolor:#000f22;
+   --sdcolor:#00ffbd;
+   --thcolor:#02008c;
+}
+
+.dancing-script {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+#rec{
+    height:7%;
+    width: 13%;
+    background-color: #00ffbd;
+    margin:0%;
+    padding: 0.5em;
+    border-radius:8px;
+    position: relative;
+    left:43%;
+    top:13%;
+    animation: growShrink 3s infinite;
+}
+@keyframes growShrink {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+#wel{
+    font-size:300%;
+    color: #f4f4f4;
+    position: relative;
+    top:15%;
+}
+#come{
+    font-size:500%;
+    color:var(--sdcolor);
+    position: relative;
+    top:7%;
+}
+
+#hint{
+    position: relative;
+    top:10%;
+    font-size:30px;
+    color:aliceblue;
+}
+
+
+  .tilt-warp {
+    font-family: "Tilt Warp", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "XROT" 0,
+      "YROT" 0;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--ftcolor);
+}
+.navbar {
+    width: 100%;
+    height: 5em; 
+    background-color:#02008c;
+}
+
+.main-content {
+    padding: 2%;
+}
+.header {
+    width:88%;
+    height: 40em;
+    background-color: #f4f4f4;
+    padding: 1%;
+    text-align: center;
+    position: relative;
+    left:5%;
+    background-image:url(someThings/Event.jpeg);
+    background-size:100% 100% ;
+    background-repeat: no-repeat;
+
+}
+
+.subsec{
+    background-color: var(--sdcolor);
+    border-radius:40px;
+    padding:1px;
+    width:120%;
+    position: relative;
+    top:70px;
+
+}
+
+.sec{
+    width:18%;
+    height:25%;
+    border: #00ffbd 33px 33px;
+    margin:20px;
+    position: relative;
+    left:4%;
+}
+
+.klam{
+    width:290%;
+    height:300%;
+    position: absolute;
+    left:150%;
+    border-radius:40px;
+    border:dashed 10px var(--sdcolor);
+    font-size:40px;
+
+}
+
+#Logo{
+    width:10%;
+    height:120%;
+    position: relative;
+    top:-9.5%;
+}
+
+#tail{
+
+    width:94.9em;
+    height:25em;
+    background-color:var(--thcolor);
+    position: relative;
+    top:13em;
+
+
+
+}
+
+#goodbye:hover{
+    box-shadow: 8px 8px 8px 5px;
+}
+
+#goodbye{
+    width:40em;
+    height:24em;
+    position: absolute;
+    right: 4em;
+    border-radius:30px;
+    transition: 0.7s;
+}
+
+.dots{
+    color: aliceblue;
+    position: absolute;
+}
+
+.fridge h3{
+    color: var(--sdcolor);
+    display: flex;
+    justify-content:center;
+}
+
+.fridge{
+    position: absolute;
+    left:3em;top:5em;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+.shelf{
+    position: absolute;
+    left:17em;top:5em;
+}
+
+.shelf h3{
+    color: var(--sdcolor);
+    display: flex;
+    justify-content:center;
+}
+
+.shelf h3:active{
+    text-decoration: underline;
+}
+
+.fridge h3:active{
+    text-decoration: underline;
+}
